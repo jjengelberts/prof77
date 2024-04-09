@@ -1,9 +1,4 @@
 #!/bin/bash
-# Check for presence of wget
-wget -V >& /dev/null
-if [ $? -eq 127 ]; then
-	echo 'Command wget not found'
-	exit 127
-fi
-# Obtain the original from Dr. Page.
-wget http://www.star.le.ac.uk/~cgp/prof77.tex
+#
+echo "Unfortunately, the source code is no longer available at"
+echo "http://www.star.le.ac.uk/~cgp/prof77.tex"
